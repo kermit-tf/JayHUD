@@ -5212,5 +5212,10 @@ Scheme
 			"font" "resource/Font/crosshairs.ttf"
 			"name" "Crosshairs"
 		}	
+		"10" 
+		{
+			"font" "resource/Font/tf2cross.ttf"
+			"name" "tf2cross"
+		}	
 	}
 }
