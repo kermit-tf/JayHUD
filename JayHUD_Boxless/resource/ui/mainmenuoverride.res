@@ -42,7 +42,7 @@
 				"tabPosition"	"0"
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
-				"font"			"NillB20"
+				"font"			"HudFontMediumBold"
 				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -59,7 +59,7 @@
 				"depressedFgColor_override" "255 255 255 255"
 				
 				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"235 226 202 255"
+				"image_armedcolor"	"HUDRed"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -75,6 +75,9 @@
 				}				
 			}		
 		}
+			
+
+
 		
 		 "MenuBG1"
         {
@@ -220,7 +223,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayLabel"
-		"font"			"NillB20"
+		"font"			"HudFontMediumBold"
 		"labelText"		"#MMenu_Play"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
@@ -271,7 +274,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -283,7 +286,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"TanLight"
 			"auto_wide_tocontents" "1"
 		}
 	}	
@@ -320,7 +323,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"100"
 			"use_proportional_insets" "1"
-			"font"			"NillB20"
+			"font"			"HudFontMediumBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -336,8 +339,8 @@
 			"armedFgColor_override" "HUDBlue"
 			"depressedFgColor_override" "255 255 255 255"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"TanLight"
+			"image_armedcolor"	"TanLight"
 			
 			"SubImage"
 			{
@@ -403,7 +406,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"255 255 255 255"
 
 			"SubImage"
@@ -455,7 +458,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"MOTD_HeaderLabel"
-				"font"			"NillB20"
+				"font"			"HudFontMediumSmallBold"
 				"textAlignment"	"center"
 				"labelText"		"%motdheader%"
 				"xpos"			"0"
@@ -467,7 +470,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType" "2"
-				"fgcolor_override"	"235 226 202 255"
+				"fgcolor_override"	"TanLight"
 				"bgcolor_override"	"141 178 61 255"
 			}
 		}
@@ -487,7 +490,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -502,13 +505,13 @@
 			
 			"paintbackground"	"0"
 			
-			//"defaultFgColor_override" "235 226 202 255"
+			//"defaultFgColor_override" "HUDRed"
 			//"armedFgColor_override" "46 43 42 255"
 			"defaultFgColor_override" "255 255 255 255"
 			"armedFgColor_override" "HUDBlue"
 			"depressedFgColor_override" "255 255 255 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"200 80 60 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -545,7 +548,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_TitleLabel"
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"labelText"		"%motdtitle%"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -693,10 +696,10 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "235 226 202 255"
+			"defaultFgColor_override" "TanLight"
 			"defaultBgColor_override" "46 43 42 255"
 			"armedFgColor_override" "HUDBlue"
-			"depressedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "TanLight"
 		}	
 		
 		"MOTD_PrevButton"
@@ -714,7 +717,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -728,7 +731,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"HUDRed"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -761,7 +764,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -775,7 +778,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"HUDRed"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -876,7 +879,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"HUDRed"
 			"image_armedcolor"	"255 255 255 255"
 			
 			"SubImage"
@@ -931,7 +934,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -971,7 +974,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_TitleLabel"
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"labelText"		"%notititle%"
 			"textAlignment"	"north-west"
 			"xpos"			"12"
@@ -1094,7 +1097,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1111,7 +1114,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"HUDRed"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1178,7 +1181,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"HUDRed"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1227,7 +1230,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1244,7 +1247,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"HUDRed"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1294,7 +1297,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"NillB20"
+			"font"			"HudFontMediumBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1311,7 +1314,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"HUDRed"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1361,7 +1364,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"NillB20"
+			"font"			"HudFontMediumBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1378,7 +1381,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"HUDRed"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1441,7 +1444,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"NillB20"
+			"font"			"HudFontMediumBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1458,7 +1461,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"HUDRed"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1492,7 +1495,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CustomizeLabel"
-		"font"			"NillB20"
+		"font"			"HudFontMediumBold"
 		"labelText"		"#MMenu_Customize"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
@@ -1523,7 +1526,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreateLabel"
-		"font"			"NillB20"
+		"font"			"HudFontMediumSmallBold"
 		"labelText"		"#MMenu_Create"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
@@ -1629,7 +1632,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeLabel2"
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"labelText"		"#TF_Trial_MainMenu_Upgrade2"
 			"textAlignment"	"north"
 			"xpos"			"80"
@@ -1694,7 +1697,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"NillB20"
+			"font"			"HudFontMediumBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1711,7 +1714,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"HUDRed"
 
 			"SubImage"
 			{
@@ -1761,7 +1764,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"NillB20"
+			"font"			"HudFontMediumBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1778,7 +1781,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"HUDRed"
 
 			"SubImage"
 			{
@@ -1828,7 +1831,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"NillB20"
+			"font"			"HudFontMediumBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1845,7 +1848,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"HUDRed"
 
 			"SubImage"
 			{
@@ -1895,7 +1898,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"NillB20"
+			"font"			"HudFontMediumBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1912,7 +1915,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"HUDRed"
 
 			"SubImage"
 			{
@@ -1962,7 +1965,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"NillB20"
+			"font"			"HudFontMediumBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1979,7 +1982,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"HUDRed"
 
 			"SubImage"
 			{
@@ -2029,7 +2032,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"NillB20"
+			"font"			"HudFontMediumBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2046,7 +2049,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"HUDRed"
 
 			"SubImage"
 			{
@@ -2095,7 +2098,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"100"
 			"use_proportional_insets" "1"
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2111,8 +2114,8 @@
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "255 255 255 255"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"HUDRed"
+			"image_armedcolor"	"HUDRed"
 			
 			"SubImage"
 			{
@@ -2161,7 +2164,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"100"
 			"use_proportional_insets" "1"
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2177,8 +2180,8 @@
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "255 255 255 255"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"HUDRed"
+			"image_armedcolor"	"HUDRed"
 			
 			"SubImage"
 			{
@@ -2228,7 +2231,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"100"
 			"use_proportional_insets" "1"
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2244,8 +2247,8 @@
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "255 255 255 255"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"HUDRed"
+			"image_armedcolor"	"HUDRed"
 			
 			"SubImage"
 			{
@@ -2309,7 +2312,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"NillB20"
+		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2356,7 +2359,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"NillB20"
+		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2403,7 +2406,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"NillB20"
+		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2450,7 +2453,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"NillB20"
+		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2497,7 +2500,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"NillB20"
+		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2543,7 +2546,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#MMenu_AdvOptions"
-		"font"			"NillB20"
+		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"east"
 		"textinsetx"	"25"
 		"dulltext"		"0"
@@ -2557,7 +2560,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"HUDRed"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2590,7 +2593,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_GameMenu_Options"
-		"font"			"NillB20"
+		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -2606,7 +2609,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"HUDRed"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2638,7 +2641,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Quit_Title"
-		"font"			"NillB20"
+		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -2655,7 +2658,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"HUDRed"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2687,7 +2690,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_GameMenu_Disconnect"
-		"font"			"NillB20"
+		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -2701,7 +2704,7 @@
 		"navUp"			"QuitButton"
 		"navRight"		"NewUserForumsButton"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"HUDRed"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2733,7 +2736,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_GameMenu_ExitReplay"
-		"font"			"NillB20"
+		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -2744,7 +2747,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"HUDRed"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2790,7 +2793,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"labelText"		"%highlighttext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -2847,7 +2850,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labeltext"		"#MMenu_TutorialHighlight_Button"
-				"font"			"NillB20"
+				"font"			"HudFontMediumSmallBold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -2865,7 +2868,7 @@
 				"depressedFgColor_override" "255 255 255 255"
 				
 				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"235 226 202 255"
+				"image_armedcolor"	"HUDRed"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -2897,7 +2900,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2958,7 +2961,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"labelText"		"#MMenu_PracticeHighlight_Title"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -3015,7 +3018,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labeltext"		"#MMenu_PracticeHighlight_Button"
-				"font"			"NillB20"
+				"font"			"HudFontMediumSmallBold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -3033,7 +3036,7 @@
 				"depressedFgColor_override" "255 255 255 255"
 				
 				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"235 226 202 255"
+				"image_armedcolor"	"HUDRed"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -3065,7 +3068,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -3128,7 +3131,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"labelText"		"#MMenu_NewUserForumHighlight_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -3177,7 +3180,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -3240,7 +3243,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"labelText"		"#MMenu_OptionsHighlightPanel_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -3289,7 +3292,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -3352,7 +3355,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"labelText"		"#MMenu_LoadoutHighlightPanel_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -3401,7 +3404,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -3464,7 +3467,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"labelText"		"#MMenu_StoreHighlightPanel_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -3513,7 +3516,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"NillB20"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
