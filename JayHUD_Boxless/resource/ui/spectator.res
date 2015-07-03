@@ -14,39 +14,26 @@
 	"specgui"
 	{
 	}
-	
 	"topbar"
 	{
-		"ControlName"	"Panel"
-		"fieldName"	 "TopBar"
-		"xpos"	 "999999"
-		"ypos"	 "999999"
-		"wide"	 "0"
-		"tall"	 "0"
-		"visible"	 "0"
-		"enabled"	 "0"
+		"ControlName"		"Panel"
+		"fieldName"		"TopBar"
+		"xpos"			"9999"
+
 	}
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
-		"fieldName"	 "BottomBar"
-		"xpos"	 "999999"
-		"ypos"	 "999999"
-		"wide"	 "0"
-		"tall"	 "0"
-		"visible"	 "0"
-		"enabled"	 "0"
+		"fieldName"		"BottomBar"
+		"xpos"			"9999"
+
 	}
 	"bottombarblank"
 	{
-		"ControlName"	 "Panel"
-		"fieldName"	 "bottombarblank"
-		"xpos"	 "999999"
-		"ypos"	 "999999"
-		"wide"	 "0"
-		"tall"	 "0"
-		"visible"	 "0"
-		"enabled"	 "0"
+		"ControlName"		"Panel"
+		"fieldName"		"bottombarblank"
+		"xpos"			"9999"
+
 	}
 	"ReinforcementsLabel"
 	{
@@ -55,18 +42,17 @@
 		"xpos"			"c-300"	[$WIN32]
 		"xpos"			"c-200"	[$X360]
 		"ypos"			"50"	[$WIN32]
-		"ypos"			"67"	[$X360]
 		"wide"			"600"	[$WIN32]
 		"wide"			"400"	[$X360]
 		"tall"			"18"
+		"tall_hidef"		"23"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Nill12"
-		"fgcolor_override"		"HUDWhite"
+		"font"			"HudFontMediumSmallSecondary"
 	}
 	"BuyBackLabel"
 	{
@@ -90,9 +76,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"Nill12"
-		"font_hidef"		"Nill16"
-		"xpos"			"r260"	[$WIN32]
+		"font"			"HudFontSmall"
+		"font_hidef"		"HudFontMedium"
+		"xpos"			"9999"	[$WIN32]
 		"ypos"			"16"	[$WIN32]
 		"xpos"			"r285"	[$X360]
 		"ypos"			"32"	[$X360]
@@ -112,7 +98,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
-		"xpos"			"c-85"
+		"xpos"			"9999"
 		"xpos_hidef"	"c-65"
 		"xpos_lodef"	"40"
 		"ypos"			"68"
@@ -133,8 +119,10 @@
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"center"
 		"textAlignment_lodef"		"north-west"
-		"font"			"Nill12"
-		"fgcolor_override"		"HUDWhite"
+		"font"			"SpectatorKeyHints"
+		"font_hidef"	"HudFontSmallest"
+		"font_lodef"	"HudFontSmall"
+		"wrap_lodef"			"1"
 	}
 	"SwitchCamModeKeyLabel"
 	{
@@ -149,7 +137,7 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
+		"visible"		"1"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
@@ -171,7 +159,7 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
+		"visible"		"1"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
@@ -192,7 +180,7 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
+		"visible"		"1"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
@@ -213,7 +201,7 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
+		"visible"		"1"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
@@ -234,7 +222,7 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
+		"visible"		"1"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
@@ -255,7 +243,7 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
+		"visible"		"1"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
@@ -265,88 +253,73 @@
 	}
 	"TipLabel"
 	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"TipLabel"
-		"xpos"					"9999"
-		"xpos_hidef"			"60"
-		"xpos_lodef"			"45"
-		"ypos"					"r67"
-		"ypos_lodef"			"28"
-		"ypos_hidef"			"35"
-		"wide"					"145"
-		"wide_hidef"			"230"
-		"wide_lodef"			"240"
-		"tall"					"64"
-		"tall_hidef"			"70"
-		"tall_lodef"			"70"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"0"
+		"ControlName"		"CExLabel"
+		"fieldName"		"TipLabel"
+		"xpos"			"9999"
+		"xpos_hidef"	"60"
+		"xpos_lodef"	"45"
+		"ypos"			"r67"
+		"ypos_lodef"		"28"
+		"ypos_hidef"		"35"
+		"wide"			"145"
+		"wide_hidef"	"230"
+		"wide_lodef"	"240"
+		"tall"			"64"
+		"tall_hidef"	"70"
+		"tall_lodef"	"70"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
 		"visible_minmode"		"0"
-		"enabled"				"1"
-		"labelText"				"%tip%"
-		"textAlignment"			"center"	[$WIN32]
-		"textAlignment"			"north-west"	[$X360]
-		"font"					"SpectatorKeyHints"
-		"font_hidef"			"HudFontSmall"
-		"font_lodef"			"DefaultVerySmall"
-		"wrap"					"1"
+		"enabled"		"1"
+		"labelText"		"%tip%"
+		"textAlignment"		"center"	[$WIN32]
+		"textAlignment"		"north-west"	[$X360]
+		"font"			"SpectatorKeyHints"
+		"font_hidef"	"HudFontSmall"
+		"font_lodef"	"DefaultVerySmall"
+		"wrap"			"1"
 	}
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r270"
-		"ypos"			"300"
-		"zpos"			"1"
-		"wide"			"270"
-		"tall"			"180"
-		"visible"		"1"
-		"bgcolor_override"		"0 0 0 128"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"190"
+		"tall"			"100"
+		"visible"		"0"
+		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
 		
-		"model_xpos"		"10"
-		"model_center_y"	"1"
+		"model_ypos"		"10"
+		"model_center_x"	"1"
 		"model_wide"		"90"
-		"model_tall"		"55"
+		"model_tall"		"60"
 		
-		"text_xpos"		"90"
+		"text_xpos"		"10"
+		"text_ypos"		"10"
 		"text_wide"		"170"
 		"text_center"	"1"
 		
-		"max_text_height"	"90"
-		"padding_height"	"40"
+		"max_text_height"	"100"
+		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
-
 		}
-		"ItemBackground"
-		{
-			"ControlName" "ImagePanel"
-			"fieldName" "ItemBackground"
-			"xpos" "0"
-			"ypos" "0"
-			"zpos" "-99"
-			"wide" "255"
-			"tall" "900"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" "1"
-			"enabled" "1"
-			"fillcolor" "0 0 0 128"
-		}
+		
 		"ItemLabel"
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"Nill10"
+			"font"			"DefaultSmall"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
@@ -362,4 +335,17 @@
 			"brighttext"	"0"
 		}
 	}	
+	"spectator_extras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}		
 }

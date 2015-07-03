@@ -2517,4 +2517,49 @@
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
+	"ItemAttributeTracker"
+	{
+		"fieldName" 	"ItemAttributeTracker"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f5"
+		"tall"			"f0"
+		"PaintBackgroundType"	"0"
+	}
+
+	HudMiniGame
+	{
+		"fieldName" "HudMiniGame"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
+	}
+
+	"QuestNotificationPanel"
+	{
+		"fieldName"	"QuestNotificationPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	"QuestLogContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"QuestLogContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
 }

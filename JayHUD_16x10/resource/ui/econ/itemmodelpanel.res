@@ -1,5 +1,20 @@
 "Resource/UI/ItemModelPanel.res"
-{
+{	
+	"mouseoveritempanel"
+	{
+		"fieldName"				"mouseoveritempanel"
+		"collection_wide"		"500"
+		"collection_list_xpos"	"250"
+		"is_mouseover"			"1"
+		"text_xpos_collection"	"0"
+		"text_ypos"			"15"
+		"text_forcesize" "0"
+		//"model_xpos_collection"	"77"
+		//"model_ypos_collection"	"20"
+		//"model_wide_collection"	"156"
+		//"model_tall_collection"	"100"
+	}
+	
 	"LoadingSpinner"
 	{
 		"ControlName"	"ImagePanel"
@@ -65,8 +80,9 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"namelabel"
+			"font"			"ItemFontNameLarge"
 			"xpos"			"0"
-			"ypos"			"-10"
+			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"30"
@@ -75,7 +91,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%itemname%"
-			"textAlignment"	"north"
+			"textAlignment"	"south"
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
@@ -85,7 +101,7 @@
 			"fieldName"		"attriblabel"
 			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
-			"ypos"			"10"
+			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
@@ -98,12 +114,12 @@
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
-	
+		
 		"equippedlabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
-			"font"			"Nill8"
+			"font"			"ItemFontAttribSmall"
 			"xpos"			"37"
 			"ypos"			"28"
 			"zpos"			"2"
@@ -212,7 +228,37 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-
+		"is_strange_icon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"is_strange_icon"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"2"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"
+		}
+		"is_unusual_icon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"is_unusual_icon"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"2"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"
+		}
+		
 		"contained_item_panel"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -250,4 +296,6 @@
 			"use_item_sounds"	"1"
 		}
 	}
+
+
 }
