@@ -1115,6 +1115,17 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"SpectatorVerySmall"
+		{
+			"1"
+			{
+				"name" "Verdana"
+				"tall" "7"
+				"weight" "400"
+				"additive" "0"
+				"antialias" "1"
+			}
+		}
 		DefaultLarge
 		{
 			"1"
