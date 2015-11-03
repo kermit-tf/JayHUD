@@ -1,62 +1,7 @@
 "Resource/UI/HudPlayerHealth.res"
 {      
         // player health data
-		"HPBorderPanel1"
-	{
-		"ControlName"			"CTFImagePanel"
-		"fieldName"				"HPBackgroundPanel1"
-		"xpos"					"c-6"
-		"ypos"					"c40"
-		"xpos_minmode"					"316"
-		"ypos_minmode"					"72"
-		"zpos"					"1"
-		"wide"					"12"
-		"tall"	 				"30"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible" 				"1" 
-		"enabled" 				"1"
-		"image"					"../hud/color_panel_brown"
-		"scaleImage"			"1"
-		"teambg_1"				"../hud/color_panel_brown"
-		"teambg_2"				"../hud/color_panel_red"
-		"teambg_3"				"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
-	}
-
-	"HPBorderPanel2"
-	{
-		"ControlName"			"CTFImagePanel"
-		"fieldName"				"HPBackgroundPanel2"
-		"xpos"					"c-15"
-		"ypos"					"c49"
-		"xpos_minmode"					"307"
-		"ypos_minmode"					"81"
-		"zpos"					"1"
-		"wide"					"31"
-		"tall"	 				"12"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"image"					"../hud/color_panel_brown"
-		"scaleImage"			"1"
-		"teambg_1"				"../hud/color_panel_brown"
-		"teambg_2"				"../hud/color_panel_red"
-		"teambg_3"				"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
-	}
-	
-		    
-		
+			
         "HudPlayerHealth"
         {
                 "ControlName"   "EditablePanel"
@@ -75,7 +20,23 @@
                 "HealthBonusPosAdj"     "35"
                 "HealthDeathWarning"    "0.49"
                 "HealthDeathWarningColor"       "HUDDeathWarning"
-        }      
+        }     
+	"HealthCrossborder"
+	{
+		"ControlName"				"CTFImagePanel"
+		"fieldName"					"HealthCrossBorder"
+		"xpos"						"402"
+		"ypos"						"270"
+		"zpos"						"3"
+		"wide"						"51"
+		"tall"						"50"
+		"visible"					"1" // "1" to enable the team-colored HP cross border
+		"enabled"					"1"
+		"image"						"replay/thumbnails/health_border_red"
+		"teambg_2"					"replay/thumbnails/health_border_red"
+		"teambg_3"					"replay/thumbnails/health_border_blu"
+		"scaleImage"				"1"
+	}		
         "PlayerHealthBG1"
         {
                 "ControlName"				"CExImageButton"

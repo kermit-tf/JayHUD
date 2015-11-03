@@ -173,6 +173,14 @@
 		{
 			"image"		"../console/background_xmas2011"
 		}
+		if_eotl_launch
+		{
+			"image"		"../console/title_eotl01"
+		}
+		if_community_update
+		{
+			"image"		"../console/title_invasion"
+		}
 	}
 					
 	"TFLogoImage"
@@ -3467,7 +3475,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#MMenu_StoreHighlightPanel_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -3516,7 +3524,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontMediumSmallBold"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -3527,9 +3535,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "HUDBlue"
-			"depressedFgColor_override" "255 255 255 255"
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -3549,15 +3557,14 @@
 			}				
 		}		
 	}
-
-	"EventPromo"
+		"EventPromo"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
-		"xpos"			"c106" 
-		"ypos"			"-204"
+		"xpos"			"c0"
+		"ypos"			"0"
 		"zpos"			"-60"
-		"wide"			"325"
+		"wide"			"320"
 		"tall"			"f0"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
@@ -3573,7 +3580,7 @@
 			"wide"					"p0.9"
 			"tall"					"o1"
 			"visible"				"0"
-			"enabled"				"0"
+			"enabled"				"1"
 			"image"					"menu_background_eotl_duck"
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"
@@ -3642,7 +3649,7 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"use_proportional_insets" "1"
-					"font"			"Liber18"
+					"font"			"HudFontSmallBold"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
@@ -3693,8 +3700,8 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"tabPosition"	"0"
-					"use_proportional_insets" "0"
-					"font"			"Liber18"
+					"use_proportional_insets" "1"
+					"font"			"HudFontSmallBold"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
@@ -3714,8 +3721,8 @@
 					"armedFgColor_override" "235 226 202 255"
 					"depressedFgColor_override" "46 43 42 255"
 			
-					"image_drawcolor"	"117 107 94 0"
-					"image_armedcolor"	"235 226 202 0"
+					"image_drawcolor"	"117 107 94 255"
+					"image_armedcolor"	"235 226 202 255"
 				}
 			}
 
@@ -3739,37 +3746,22 @@
 				{
 					"0"
 					{
-						"item"		"Unused Invasion Pass"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Halloween 2015 Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Invasion Key"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
+						"item"		"Halloween 2015 case"
 					}
 					"2"
 					{
-						"item"		"Invasion Case 01"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Taunt: Zoomin' Broom"
+						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Invasion Case 02"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Taunt: Soldier's Requiem"
+						"show_market"	"0"
 					}
 				}
 			}
@@ -3786,7 +3778,7 @@
 			"wide"					"80"
 			"tall"					"o1"
 			"visible"				"0"
-			"enabled"				"0"
+			"enabled"				"1"
 			"image"					"new_large"
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"
@@ -3830,4 +3822,5 @@
 			"angles_z"		"0"
 		}
 	}
+
 }

@@ -405,6 +405,12 @@
 		"brighttext"	"0"
 		"Command"		"start_party"
 
+		if_competitive
+		{
+			"xpos"			"c+120"
+			"ypos"			"375"
+		}
+
 		"NavUp"			"Sheet"
 		"NavDown"		"NextButton"
 		"NavLeft"		"PracticeButton"

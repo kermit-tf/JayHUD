@@ -13,7 +13,7 @@
 		"medal_width"		"10"
 		"avatar_width"		"57"	[$WIN32]
 		"name_width"		"85"	[$WIN32]
-		"name_width_short"	"85"	[$WIN32]		
+		"name_width_minmode" "65"	[$WIN32]		
 		"status_width"		"15"	[$WIN32]
 		"nemesis_width"		"15"	[$WIN32]
 		"class_width"		"15"	[$WIN32]
@@ -1012,10 +1012,10 @@
 				"visible"		"1"
 			}
 		}
-		"Kills"
+		"Killst"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Kills"
+			"fieldName"		"Killst"
 			"font"			"Nill45"
 			"fgcolor"		"HUDWhite"
 			"labelText"		"%kills%"
@@ -1098,10 +1098,10 @@
 				"visible"		"1"
 			}
 		}
-		"Deaths"
+		"Deathst"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Deaths"
+			"fieldName"		"Deathst"
 			"font"			"Nill45"
 			"fgcolor"		"HUDWhite"
 			"labelText"		"%deaths%"
@@ -1155,30 +1155,6 @@
 			}
 		}
 		
-			"GameType"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"gametype"
-			"font"		"Nill10"
-			"labelText"		"%gametype%"
-			"textAlignment"	"center"
-			"xpos"		"c6"
-			"ypos"		"r150"
-			"zpos"		"3"
-			"wide"		"89"
-			"wide_minmode"	"0"
-			"tall"		"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"fgcolor"		"255 255 255 255"
-
-			if_mvm
-			{
-				
-			}
-		}
 		
 				"AssistsLabel"
 		{
@@ -1206,10 +1182,10 @@
 				"ypos"		"r172"
 			}
 		}
-		"Assists"
+		"Assistst"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Assists"
+			"fieldName"		"Assistst"
 			"font"			"Nill12"
 			"font_minmode"		"Nill12"
 			"labelText"		"%assists%"
@@ -1258,10 +1234,10 @@
 				"ypos"		"r162"
 			}
 		}
-		"Captures"
+		"Capturest"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Captures"
+			"fieldName"		"Capturest"
 			"font"			"Nill12"
 			"font_minmode"		"Nill12"
 			"labelText"		"%captures%"
@@ -1311,10 +1287,10 @@
 				"ypos"		"r152"
 			}
 		}
-		"Defenses"
+		"Defensest"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Defenses"
+			"fieldName"		"Defensest"
 			"font"			"Nill12"
 			"font_minmode"		"Nill12"
 			"labelText"		"%defenses%"
@@ -1363,10 +1339,10 @@
 				"ypos"		"r142"
 			}
 		}
-		"Domination"
+		"Dominationt"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Domination"
+			"fieldName"		"Dominationt"
 			"font"			"Nill12"
 			"font_minmode"		"Nill12"
 			"labelText"		"%dominations%"
@@ -1415,10 +1391,10 @@
 				"ypos"		"r132"
 			}
 		}
-		"Revenge"
+		"Revenget"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Revenge"
+			"fieldName"		"Revenget"
 			"font"			"Nill12"
 			"font_minmode"		"Nill12"
 			"labelText"		"%Revenge%"
@@ -1467,10 +1443,10 @@
 				"ypos"		"r122"
 			}
 		}
-		"Destruction"
+		"Destructiont"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Destruction"
+			"fieldName"		"Destructiont"
 			"font"			"Nill12"
 			"font_minmode"		"Nill12"
 			"labelText"		"%destruction%"
@@ -1519,10 +1495,10 @@
 				"ypos"		"r172"
 			}
 		}		
-		"Healing"
+		"Healingt"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Healing"
+			"fieldName"		"Healingt"
 			"font"			"Nill12"
 			"font_minmode"		"Nill12"
 			"labelText"		"%healing%"
@@ -1572,10 +1548,10 @@
 				"ypos"		"r162"
 			}
 		}
-		"Invuln"
+		"Invulnt"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Invuln"
+			"fieldName"		"Invulnt"
 			"font"			"Nill12"
 			"font_minmode"		"Nill12"
 			"labelText"		"%invulns%"
@@ -1625,10 +1601,10 @@
 				"ypos"		"r152"
 			}
 		}
-		"Headshots"
+		"Headshotst"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Headshots"
+			"fieldName"		"Headshotst"
 			"font"			"Nill12"
 			"font_minmode"		"Nill12"
 			"labelText"		"%headshots%"
@@ -1678,10 +1654,10 @@
 				"ypos"		"r142"
 			}
 		}
-		"Backstabs"
+		"Backstabst"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Backstabs"
+			"fieldName"		"Backstabst"
 			"font"			"Nill12"
 			"font_minmode"		"Nill12"
 			"labelText"		"%backstabs%"
@@ -1731,10 +1707,10 @@
 				"ypos"		"r132"
 			}
 		}
-		"Teleports"
+		"Teleportst"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Teleports"
+			"fieldName"		"Teleportst"
 			"font"			"Nill12"
 			"font_minmode"		"Nill12"
 			"labelText"		"%teleports%"
@@ -1784,10 +1760,10 @@
 				"ypos"		"r122"
 			}
 		}
-		"Bonus"
+		"Bonust"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Bonus"
+			"fieldName"		"Bonust"
 			"font"			"Nill12"
 			"font_minmode"		"Nill12"
 			"labelText"		"%bonus%"
@@ -1829,10 +1805,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-			"Support"
+			"Supportt"
 		{
 			"ControlName" 		"CExLabel"
-			"fieldName" 		"Support"
+			"fieldName" 		"Supportt"
 			"font" 				"Nill12"
 			"labelText" 		"%support%"
 			"fgcolor"			"HUDWhite"
@@ -1865,10 +1841,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 	}
-			"Damage"
+			"Damaget"
 	{
 			"ControlName" 		"CExLabel"
-			"fieldName" 		"Damage"
+			"fieldName" 		"Damaget"
 			"font" 				"Nill12"
 			"labelText" 		"%damage%"
 			"fgcolor"			"HUDWhite"

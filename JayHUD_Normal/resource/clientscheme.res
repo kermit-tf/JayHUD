@@ -591,6 +591,445 @@ Scheme
 				"weight"		"0"
 			}
 		}
+		knucklescrosshairs6
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"6"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+		
+		knucklescrosshairs8
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"8"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+	
+		knucklescrosshairs10
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"10"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+		knucklescrosshairs12
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+		knucklescrosshairs14
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+		knucklescrosshairs16
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+		knucklescrosshairs18
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"18"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+		knucklescrosshairs20
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+		knucklescrosshairs22
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"22"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+			knucklescrosshairs24
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+		knucklescrosshairs26
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"26"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+			knucklescrosshairs28
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"28"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+		knucklescrosshairs30
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"30"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+		knucklescrosshairs32
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"32"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+			knucklescrosshairs34
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"34"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+		knucklescrosshairs36
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"36"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+			knucklescrosshairs38
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"38"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+		knucklescrosshairs40
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"40"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+		knucklescrosshairs45
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"45"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+		knucklescrosshairs48
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"	
+			}
+		}
+		knucklescrosshairs50
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"50"
+				"weight"	"500"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		
+		
+		
+		knucklescrosshairsoutline6
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"6"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		
+		knucklescrosshairsoutline8
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"8"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+	
+		knucklescrosshairsoutline10
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"10"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline12
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"12"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline14
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"14"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline15
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"15"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline16
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"16"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline18
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"18"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"   "1"
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline20
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"20"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline22
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"22"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline24
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"24"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline26
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"26"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline28
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"28"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline30
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"30"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline32
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"32"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline35
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"35"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline40
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"40"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline45
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"45"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline48
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"48"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
+		knucklescrosshairsoutline50
+		{
+			"1"
+			{
+				"name"		"knucklescrosshairs"
+				"tall"		"50"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"		"1"
+			}
+		}
 		"diagonallinedot"
         {
             "1"
@@ -5554,6 +5993,17 @@ Scheme
 		}
 		ReplayBrowser.ScrollBar.SliderButton.Border
 		{
+		}
+		QuestStatusBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/panel_scalable_transparent"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 	}
 
