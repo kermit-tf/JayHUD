@@ -12,6 +12,7 @@
 		"enabled"			"1"
 		"medal_width"		"10"
 		"avatar_width"		"57"	[$WIN32]
+		"spacer"			"5"
 		"name_width"		"85"	[$WIN32]
 		"name_width_minmode" "65"	[$WIN32]		
 		"status_width"		"15"	[$WIN32]
@@ -19,8 +20,9 @@
 		"class_width"		"15"	[$WIN32]
 		"score_width"		"20"
 		"ping_width"		"18"	[$WIN32]
-		"stats_width"		"15"
-		"killstreak_width"	"10"
+		"killstreak_width"  "10"
+        "killstreak_image_width" "10"
+		"stats_width"       "30"
 	}
 	"MainBG"
 	{
@@ -530,7 +532,7 @@
 		"wide"			"253"
 		"wide_minmode"		"231"
 		"tall"			"247"
-		"tall_minmode"		"119"
+		"tall_minmode"		"120"
 		"visible"		"1"
 		"enabled"		"1"
 		"autoresize"	"3"
@@ -554,7 +556,7 @@
 		"wide"			"253"
 		"wide_minmode"		"231"
 		"tall"			"247"
-		"tall_minmode"		"119"
+		"tall_minmode"		"120"
 		"visible"		"1"
 		"enabled"		"1"
 		"autoresize"	"3"
