@@ -1,5 +1,40 @@
 "Resource/HudLayout.res"
 {
+
+	knuckles_crosshair
+    {
+        "controlName" "CExLabel"
+        "fieldName" "knuckles_crosshair"
+        "visible" "0"
+		"visible_minmode" "1"
+        "enabled" "1"
+        "zpos" "2"
+        "xpos" "c-25"
+        "ypos" "c-25"
+        "wide" "51"
+        "tall" "51"
+
+        "font" "knucklescrosshairsoutline18"
+        "labelText" "e"
+        "textAlignment" "center"
+
+        "fgcolor" "255 255 255 255"
+    }
+	
+	"ctfspectatorextras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
 	diagonallinedot
     {
         "controlName" "CExLabel"
@@ -387,7 +422,7 @@
         "controlName" "CExLabel"
         "fieldName" "Small_cross"
         "visible" "0"
-		"visible_minmode" "1"
+		"visible_minmode" "0"
         "enabled" "1"
         "zpos" "2"
 
@@ -930,10 +965,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
-		"xpos"			"40"
+		"xpos"			"40" //40
 		"xpos_lodef"	"279"
 		"xpos_hidef"	"309"
-		"ypos"			"240"
+		"ypos"			"240" //240
 		"zpos"			"-5"
 		"wide"			"374"
 		"tall"			"1"
@@ -945,7 +980,7 @@
 		"visible_minmode" "0"
 		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "50"
+		"alpha" "50" //50
 	}
 	
 	"16x9Crosshair_horizontal2"
@@ -1093,7 +1128,7 @@
 		"fieldName"	 		"xHairCircle"
 		"font"				"xHairCircleThick"
 		"visible"			"0"
-		"visible_minmode"	"1"
+		"visible_minmode"	"0"
 		"enabled"			"1"
 		"zpos"				"2"
 
@@ -1116,13 +1151,13 @@
 		"enabled" "1"
 		"MinimumWidth" "10"
 		"MaximumWidth" "10"
-		"StartRadius" "10"
-		"EndRadius" "10"
-		"MinimumHeight" "15"
-		"MaximumHeight" "15"
-		"MinimumTime" "6"
-		"MaximumTime" "6"
-	} 
+		"StartRadius" "35"
+		"EndRadius" "35"
+		"MinimumHeight" "45"
+		"MaximumHeight" "45"
+		"MinimumTime" "2"
+		"MaximumTime" "2"
+	}
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -1197,10 +1232,8 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"287"	
-		"xpos_minmode"	"287"	
-		"ypos"			"310"	
-		"ypos_minmode"	"274"	
+		"xpos"			"283"	
+		"ypos"			"310"		
 		"wide"			"600"
 		"tall"			"70"
 	}
@@ -2561,5 +2594,40 @@
 		"ypos"			"0"
 		"wide"	 		"f0"
 		"tall"	 		"f0"
+	}
+	
+	"MatchMakingContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"MatchMakingContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
+	"spectator_extras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+		HudSpectatorExtras
+	{
+		"fieldName" "HudSpectatorExtras"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
 	}
 }

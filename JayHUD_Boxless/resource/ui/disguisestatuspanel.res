@@ -96,12 +96,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"0"
-		"xpos_minmode"	"0"
-		"ypos"			"30"
-		"ypos_minmode"	"30"
+		"xpos"			"28"
+		"ypos"			"29"
 		"zpos"			"2"
-		"wide"			"50"
+		"wide"			"22"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -111,5 +109,6 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"255 255 255 255"
 	}	
+	
 	
 }

@@ -591,6 +591,16 @@ Scheme
 				"weight"		"0"
 			}
 		}
+		"diagonallinedot"
+        {
+            "1"
+            {
+                "name" "Crosshairs"
+                "tall" "28"
+                "weight" "0"
+                "antialias" "1"
+            }
+        }
 		knucklescrosshairs6
 		{
 			"1"
@@ -1030,16 +1040,6 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"diagonallinedot"
-        {
-            "1"
-            {
-                "name" "Crosshairs"
-                "tall" "28"
-                "weight" "0"
-                "antialias" "1"
-            }
-        }
 		crosshairs6
 		{
 			"1"
@@ -1639,17 +1639,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"SpectatorVerySmall"
-		{
-			"1"
-			{
-				"name" "Verdana"
-				"tall" "7"
-				"weight" "400"
-				"additive" "0"
-				"antialias" "1"
-			}
-		}
 		HudHintText
 		{
 			"1"
@@ -1882,6 +1871,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}	
+		"SpectatorVerySmall"
+		{
+			"1"
+			{
+				"name" "Verdana"
+				"tall" "7"
+				"weight" "400"
+				"additive" "0"
+				"antialias" "1"
+			}
+		}
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -3404,6 +3404,17 @@ Scheme
 				"antialias" "1"	
 			}
 		}
+		Nill12Shadow
+		{
+			"1"
+			{
+				"name"		"Nilland-Black"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias" "1"	
+				"dropshadow"	"1"
+			}
+		}
 		Nill14
 		{
 			"1"
@@ -3568,6 +3579,18 @@ Scheme
 				"antialias" "1"	
 			}
 		}
+		
+		Nill45Shadow
+		{
+			"1"
+			{
+				"name"		"Nilland-Black"
+				"tall"		"45"
+				"weight"	"500"
+				"antialias" "1"	
+				"dropshadow" "1"
+			}
+		}
 	
 	//BOLD NILL
 		NillB10
@@ -3702,6 +3725,42 @@ Scheme
 			}
 		}
 		//OUTLINE NILL
+		
+		Nill10Outline
+		{
+			"1"
+			{
+				"name"		"Nilland-Black"
+				"tall"		"10"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"	"1"
+			}
+		}
+		Nill12Outline
+		{
+			"1"
+			{
+				"name"		"Nilland-Black"
+				"tall"		"12"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"	"1"
+			}
+		}
+		
+		Nill14Outline
+		{
+			"1"
+			{
+				"name"		"Nilland-Black"
+				"tall"		"14"
+				"weight"	"0"
+				"antialias" "1"	
+				"outline"	"1"
+			}
+		}
+		
 			Nill20Outline
 		{
 			"1"
@@ -5994,17 +6053,6 @@ Scheme
 		ReplayBrowser.ScrollBar.SliderButton.Border
 		{
 		}
-		QuestStatusBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/panel_scalable_transparent"
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
-		}
 	}
 
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
@@ -6090,5 +6138,10 @@ Scheme
 			"font" "resource/Font/tf2cross.ttf"
 			"name" "tf2cross"
 		}	
+		"11" 
+		{
+			"font" "resource/Font/knucklescrosshairs.ttf"
+			"name" "knucklescrosshairs"
+		}
 	}
 }

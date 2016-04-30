@@ -1941,6 +1941,74 @@
 		}
 	}
 		
+		"PlayCompetitiveButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"PlayCompetitiveButton"
+		"xpos"			"c-285"
+		"ypos"			"90"
+		"zpos"			"11"
+		"wide"			"270"
+		"tall"			"36"
+		"visible"		"0"
+		"enabled"		"0"
+		"PaintBackgroundType"	"0"
+
+		"navUp"			"PlayPVEButton"
+		"navDown"		"ServerBrowserButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"	"SubButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"250"
+			"tall"			"26"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"HudFontMediumBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	""
+			"border_armed"		""
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "255 255 255 255"
+			"armedFgColor_override" "HUDBlue"
+			"depressedFgColor_override" "255 255 255 255"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"HUDRed"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"0"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
+	}
+		
 	"ServerBrowserButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -3557,7 +3625,7 @@
 			}				
 		}		
 	}
-		"EventPromo"
+	"EventPromo"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
@@ -3592,10 +3660,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"Background"
 			"xpos"			"cs-0.5"
-			"ypos"			"300"
+			"ypos"			"315"
 			"zpos"			"0"
 			"wide"			"p0.8"
-			"tall"			"120"
+			"tall"			"90"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -3626,12 +3694,12 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldname"		"ViewDetailsButton"
-				"xpos"			"p0.02"
+				"xpos"			"p0.25"
 				"ypos"			"27"
 				"zpos"			"11"
 				"wide"			"p0.48"
 				"tall"			"26"
-				"visible"		"1"
+				"visible"		"0"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 
@@ -3683,7 +3751,7 @@
 				"zpos"			"11"
 				"wide"			"p0.48"
 				"tall"			"26"
-				"visible"		"1"
+				"visible"		"0"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 
@@ -3731,10 +3799,10 @@
 				"ControlName"			"CCyclingAdContainerPanel"
 				"fieldName"				"CyclingAd"
 				"xpos"					"5"
-				"ypos"					"p0.47"
+				"ypos"					"25"
 				"zpos"					"100"
 				"wide"					"f10"
-				"tall"					"p0.5"
+				"tall"					"60"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -3746,23 +3814,35 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2015 Key"
-						"show_market"	"0"
+						"item"		"Tough Break Case 01 Pyroland"
+						"show_market"	"1"
 					}
 					"1"
 					{
-						"item"		"Halloween 2015 case"
+						"item"		"Tough Break Case 02 Warbirds"
+						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Taunt: Zoomin' Broom"
+						"item"		"Tough Break Key"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Taunt: Soldier's Requiem"
+						"item"		"Tough Break Cosmetic Case"
+						"show_market"	"1"
+					}
+					"4"
+					{
+						"item"		"Tough Break Cosmetic Key"
 						"show_market"	"0"
 					}
+					"5"
+					{
+						"item"		"Taunt: Mannrobics"
+						"show_market"	"0"
+					}
+					
 				}
 			}
 

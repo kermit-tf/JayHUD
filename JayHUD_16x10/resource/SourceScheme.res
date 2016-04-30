@@ -1,7 +1,4 @@
-//SourceScheme.res edited by rays, originally by:
-// Doodles - DoodleHUD - http://doodlesstuff.com
-//Thanks to rays for the layout.
-//
+//SourceScheme.res
 #base "SourceSchemeBase.res"
 Scheme
 {
@@ -14,12 +11,7 @@ Scheme
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"30 30 30 255" 
 		"Blank"				"0 0 0 0"
-		"bwPrimary"			"255 255 255 255"
-		"bwPrimaryLight"		"230 230 230 255"
-		"bwPrimaryDark"		"200 200 200 255"
-		"bwBlack"				"15 15 15 255"
-		"bwBlackTrans"		"25 25 25 190"
-		"bwButtonHover"		"55 55 55 128"
+
 		
 		// TF2
 	    "TFDarkBrown"               "60 56 53 255"

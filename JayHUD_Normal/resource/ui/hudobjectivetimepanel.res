@@ -256,7 +256,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"7"
+		"xpos"			"5"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
 		"ypos"			"33"
@@ -277,10 +277,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Nill12"
-		"font_minmode"	"Nill12"
-		"font_hidef"	"Nill12"
-		"font_lodef"	"Nill12"
+		"font"			"Nill14"
 	}	
 	"ServerTimeLimitLabelBG"
 	{

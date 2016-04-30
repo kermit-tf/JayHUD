@@ -6,9 +6,8 @@
 		"xpos"				"0"
 		"ypos"				"-10"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"HUDOrange" //orange
-		//"NegativeColor"			"0 255 0 255"
+		"PositiveColor"			"100 255 100 255"
+		"NegativeColor"			"255 255 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"Nill24Outline"
 		"delta_item_font_big"	"Nill24Outline"
@@ -28,7 +27,7 @@
 		"labelText"		"%metal%"
 		"textinsetx"	"5"
 		"textAlignment"	"center"
-		"fgcolor"		"HUDOrange"
+		"fgcolor"		"255 255 0 255"
 		"font"			"Nill35"
 		"font_minmode"	"Nill35"
 	}

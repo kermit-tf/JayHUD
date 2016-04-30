@@ -3,15 +3,36 @@
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"	"PlayerStatusHealthImage"
-		"xpos"		"999999"	
-	}		
-	"PlayerStatusHealthImageBG"
+		"fieldName"		"PlayerStatusHealthImage"
+		"xpos"			"-36"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+	}			
+	
+		"PlayerStatusHealthImageBG"	
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"PlayerStatusHealthImageBG"
-		"xpos"		"999999"
-	}	
+		"ControlName"	"CExImageButton"
+		"fieldName"		"PlayerStatusHealthImageBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"15"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultbgcolor_override"	"Blank"
+		"fg_color"		"1 1 1 255"
+		"PaintBackgroundType"	"0"
+        "textinsety" 	"999"
+	}
+	
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -36,23 +57,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"		"center"
-		"font"			"Nill12"
+		"font"			"Nill12Shadow"
 		"fgcolor_override"	"255 255 255 255"
 		"labeltext"		"%Health%"	
-	}
-	"SpecPlayerHealthBG"
-	{
-		"ControlName"			"CExImageButton"
-		"fieldName"			"SpecPlayerHealthBG"
-		"xpos"				"0"
-		"ypos"				"-25"
-		"zpos"				"2"
-		"wide"				"20"
-		"tall"				"50"
-		"visible"			"1"		
-		"enabled"			"1"
-		"defaultbgcolor_override"	"15 15 15 255"
-		"PaintBackgroundType"		"0"
-		"TextInsetX"			"999999"
-	}								
+	}	
+
+	
+	
 }

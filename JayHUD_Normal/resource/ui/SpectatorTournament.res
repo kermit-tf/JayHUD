@@ -28,24 +28,6 @@
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-
-			"CoverLeft"
-			{
-				"ControlName"		"ImagePanel"
-				"fieldName"		"CoverLeft"
-				"xpos"			"0"
-				"ypos"			"0"	[$WIN32]
-				"zpos"			"2"
-				"wide"			"35"
-				"tall"			"480"
-				"autoResize"		"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"enabled"		"0"
-				"tabPosition"		"0"	
-				"fillcolor"		"50 50 50 255"
-				"PaintBackgroundType"	"0"
-			}
 			
 			"PanelLeft"
 			{
@@ -54,62 +36,16 @@
 			"xpos" 			"0"
 			"ypos"			"0"
 			"zpos" 			"1"
-			"wide" 			"36"
+			"wide" 			"20"
 			"tall" 			"18"
 			"autoResize" 	"0"
 			"pinCorner"		"0"
-			"visible" 		"0"
+			"visible" 		"1"
 			"enabled" 		"1"
-			"fillcolor" 	"15 15 15 255"
+			"fillcolor" 	"50 50 50 255"
 			}
 			
-			"PanelTop"
-			{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"PanelTop"
-			"xpos" 			"0"
-			"ypos"			"0"
-			"zpos" 			"1"
-			"wide" 			"160"
-			"tall" 			"3"
-			"autoResize" 	"0"
-			"pinCorner"		"0"
-			"visible" 		"0"
-			"enabled" 		"1"
-			"fillcolor" 	"15 15 15 255"
-			}
-			
-			"PanelBottom"
-			{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"PanelBottom"
-			"xpos" 			"0"
-			"ypos"			"12"
-			"zpos" 			"1"
-			"wide" 			"160"
-			"tall" 			"3"
-			"autoResize" 	"0"
-			"pinCorner"		"0"
-			"visible" 		"0"
-			"enabled" 		"1"
-			"fillcolor" 	"15 15 15 255"
-			}
-			
-			"PanelRight"
-			{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"PanelRight"
-			"xpos" 			"147"
-			"ypos"			"0"
-			"zpos" 			"1"
-			"wide" 			"4"
-			"tall" 			"16"
-			"autoResize" 	"0"
-			"pinCorner"		"0"
-			"visible" 		"0"
-			"enabled" 		"1"
-			"fillcolor" 	"15 15 15 255"
-			}			
+					
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -444,5 +380,20 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"	"itempanel"
 		"xpos"		"999999"
+		"visible"	"0"
+		"enabled"   "0"
+	}	
+		"spectator_extras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}	
 }

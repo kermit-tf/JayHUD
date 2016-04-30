@@ -11,8 +11,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"medal_width"		"10"
-		"avatar_width"		"57"	[$WIN32]
 		"spacer"			"5"
+		"avatar_width"		"57"	[$WIN32]
 		"name_width"		"85"	[$WIN32]
 		"name_width_minmode" "65"	[$WIN32]		
 		"status_width"		"15"	[$WIN32]
@@ -20,9 +20,119 @@
 		"class_width"		"15"	[$WIN32]
 		"score_width"		"20"
 		"ping_width"		"18"	[$WIN32]
-		"killstreak_width"  "10"
-        "killstreak_image_width" "10"
+		"stats_width"		"15"
+		"killstreak_width"	"6"
+		"killstreak_image_width" "10"
 		"stats_width"       "30"
+	}
+	"PlayerNameBG"
+	{
+		"visible"			"0"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	
+	"ShadedBar"
+	{
+		"visible"			"0"
+		
+		if_mvm
+		{
+			"visible"		"1"
+		}
+	}
+	"ServerLabelNew"
+	{
+		"visible"		"0"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	
+	BlueScoreBG
+	{
+		"visible"			"0"
+		
+	}
+	RedScoreBG
+	{
+		"visible"			"0"
+	}
+	MainBG
+	{
+		"visible"			"0"
+		
+		
+		if_mvm 
+		{
+			"visible"	"0"
+		}
+	}
+		"RedLeaderAvatarBG"
+	{
+		"visible"	"0"
+	}
+	"BlueLeaderAvatarBG"
+	{
+		"visible"	"0"
+	}
+	"RedTeamScoreDropshadow"
+	{
+		"visible"		"0"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}	
+	"BlueTeamScoreDropshadow"
+	{
+		"visible"		"0"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}	
+	"TimerBG"
+	{
+		"visible"			"0"
+	}
+	"ServerTimeLeftLabel"
+	{
+		"visible"			"0"
+	}
+	"ServerTimeLeftValue"
+	{
+		"visible"			"0"
+	}
+
+	"BlueTeamImage"
+	{
+		"visible"			"0"
+		"enabled"			"0"
+		"xpos"				"9999"	
+	}
+	"RedTeamImage"
+	{
+		"visible"			"0"
+		"enabled"			"0"
+		"xpos"				"9999"	
+	}
+	
+	"ServerTimeLeftInsetBG"
+	{
+		"visible"			"0"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"MainBG"
 	{
@@ -532,7 +642,7 @@
 		"wide"			"253"
 		"wide_minmode"		"231"
 		"tall"			"247"
-		"tall_minmode"		"120"
+		"tall_minmode"		"119"
 		"visible"		"1"
 		"enabled"		"1"
 		"autoresize"	"3"
@@ -556,7 +666,7 @@
 		"wide"			"253"
 		"wide_minmode"		"231"
 		"tall"			"247"
-		"tall_minmode"		"120"
+		"tall_minmode"		"119"
 		"visible"		"1"
 		"enabled"		"1"
 		"autoresize"	"3"
@@ -1969,7 +2079,151 @@
 			}
 		}
 
+	"damage"
+		{
+			"visible"			"0"
 
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"assists"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"support"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"bonus"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"Teleports"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"Headshots"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"backstabs"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+
+		"domination"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"revenge"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"kills"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"deaths"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"captures"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"defenses"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"healing"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"invuln"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"destruction"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
 
 	"ButtonLegendBG"			[$X360]
 	{

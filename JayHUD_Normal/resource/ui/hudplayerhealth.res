@@ -27,6 +27,8 @@
 		"fieldName"					"HealthCrossBorder"
 		"xpos"						"402"
 		"ypos"						"270"
+		"xpos_minmode"  			"297"  		[$WIN32]
+        "ypos_minmode"          	"62" 		 	[$WIN32]
 		"zpos"						"3"
 		"wide"						"51"
 		"tall"						"50"

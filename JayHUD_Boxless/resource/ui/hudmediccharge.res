@@ -29,7 +29,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Nill45Outline"
+		"font"					"Nill45Shadow"
 		"fgcolor_override"		"HUDWhite"
 	}
 
@@ -60,10 +60,8 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"30"
-		"xpos_minmode"			"30"
-		"ypos"					"65"
-		"ypos_minmode"			"65"
+		"xpos"					"40"
+		"ypos"					"60"
 		"zpos"					"2"
 		"wide"					"220"
 		"tall"					"4"				

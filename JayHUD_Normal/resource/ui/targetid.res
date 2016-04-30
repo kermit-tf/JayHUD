@@ -62,7 +62,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 175"
-		"PaintBackgroundType"	"1"
+		"PaintBackgroundType"	"0"
 	}
 	"TargetIDBG_Spec_Red"
 	{
@@ -129,10 +129,10 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"SpectatorGUIHealth"
-		"xpos"					"1"
-		"ypos"					"3"
-		"wide"					"49"
-		"tall"					"32"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"20" //49
+		"tall"					"36" //32
 		"visible"				"1"
 		"enabled"				"1"	
 		"HealthBonusPosAdj"		"10"
@@ -147,9 +147,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"50"
-		"xpos_minmode"	"50"
 		"ypos"			"19"
-		"ypos_minmode"	"19"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"

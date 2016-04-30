@@ -54,6 +54,24 @@
 					"textAlignment"		"center"
 					"font"				"PlayerPanelPlayerName"
 				}
+
+				if_competitive
+				{
+					"xpos"				"4"
+					"ypos"				"25"
+					"wide"				"48"
+					"textAlignment"		"center"
+					"font"				"PlayerPanelPlayerName"
+				}
+
+				if_readymode
+				{
+					"xpos"				"4"
+					"ypos"				"25"
+					"wide"				"48"
+					"textAlignment"		"center"
+					"font"				"PlayerPanelPlayerName"
+				}
 			}
 			
 			"classimage"
@@ -389,7 +407,7 @@
 		"fieldName"		"TournamentREDLabel"
 		"font"			"Nill30"
 		"fgcolor"		"HUDWhite"
-		"xpos"			"-4"
+		"xpos"			"5"
 		"ypos"			"64"
 		"zpos"			"5"
 		"wide"			"165"
