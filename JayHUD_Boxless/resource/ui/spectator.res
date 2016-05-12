@@ -19,6 +19,7 @@
 		"ControlName"		"Panel"
 		"fieldName"		"TopBar"
 		"xpos"			"9999"
+		"tall"			"0"
 
 	}
 	"BottomBar"

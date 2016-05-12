@@ -22,35 +22,21 @@
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"150"
+			"wide"			"145"
 			"tall"			"15"
 			"zpos"			"1"
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 			
-			"PanelLeft"
-			{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"PanelLeft"
-			"xpos" 			"0"
-			"ypos"			"0"
-			"zpos" 			"1"
-			"wide" 			"20"
-			"tall" 			"18"
-			"autoResize" 	"0"
-			"pinCorner"		"0"
-			"visible" 		"1"
-			"enabled" 		"1"
-			"fillcolor" 	"50 50 50 255"
-			}
+			
 			
 					
 			"playername"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"	"playername"
-				"font"		"Nill12"
+				"font"		"Nill12Shadow"
 				"xpos"		"40"
 				"ypos"		"0"
 				"zpos"		"5"
@@ -80,7 +66,7 @@
 				"xpos"			"21"
 				"ypos"			"0"
 				"zpos"			"3"
-				"wide"			"14"
+				"wide"			"15"
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
@@ -101,13 +87,13 @@
 			{
 				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
-				"xpos"			"5"
-				"ypos"			"4"
+				"xpos"			"17"
+				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"20"
+				"wide"			"23"
 				"tall"			"20"
-				"visible"		"0"
-				"enabled"		"0"
+				"visible"		"1"
+				"enabled"		"1"
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
 				
@@ -117,23 +103,44 @@
 				}
 			}
 			
+			
+			
 			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"0"
+				"xpos"				"-10"
 				"ypos"				"0"
-				"zpos"				"3"
-				"wide"				"20"
+				"zpos"				"0"
+				"wide"				"155"
 				"tall"				"15"
 				"visible"			"1"
 				"enabled"			"1"	
-				"HealthBonusPosAdj"	"10"
+				"HealthBonusPosAdj"	"196"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"255 255 255 255"
 			}
+			"PlayerStatusHealthImageBG"	
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"PlayerStatusHealthImageBG"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"15"
+				"tall"			"15"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"defaultbgcolor_override"	"Blank"
+				"fg_color"		"1 1 1 255"
+				"PaintBackgroundType"	"0"
+				"textinsety" 	"999"
+			}
+
 			
 			"ReadyBG"
 			{
@@ -216,7 +223,7 @@
 				"ypos"			"0"
 				"zpos"			"6"
 				"wide"			"145"
-				"tall"			"15"
+				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -380,6 +387,8 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"	"itempanel"
 		"xpos"		"999999"
+		"wide"		"0"
+		"tall"		"0"
 		"visible"	"0"
 		"enabled"   "0"
 	}	
