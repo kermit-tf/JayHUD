@@ -761,7 +761,8 @@ event NotificationsPresentBlinkStop
 
 	event DamagedPlayer
 {
-
+	//Animate test1 FgColor "255 0 0 255" Linear 0.0 0.1
+	//Animate test1 FgColor "255 0 0 0"   Linear 0.1 0.1
 	
 }
 
@@ -857,6 +858,12 @@ event RespecEarnedPulseEndLoss
 	StopEvent RespecEarnedPulseLoss		0.0
 	StopEvent RespecEarnedPulseLoopLoss	0.0
 }
+
+//event ScopeRemoval
+//{
+	//Animate HudScope Position "9999 9999" Linear 0.0 0.0
+//}
+//RunEvent ScopeRemoval 0.0
 
 event QuestItem_Identify_Expand
 {

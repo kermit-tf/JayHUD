@@ -1198,6 +1198,12 @@
 	
 		"red_active_xpos"			"106"
 		"red_active_xpos_minmode"	"106"
+		
+		if_comp
+		
+		{
+		"ypos" "15"
+		}
 	}	
 
 	HudItemEffectMeter

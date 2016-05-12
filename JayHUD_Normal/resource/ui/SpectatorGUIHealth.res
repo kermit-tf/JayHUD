@@ -21,7 +21,7 @@
 		"ypos"			"5"
 		"zpos"			"3"
 		"wide"			"100"
-		"tall"			"32"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"

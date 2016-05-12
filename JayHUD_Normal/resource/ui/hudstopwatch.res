@@ -21,6 +21,11 @@
 		
 		"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"7"	
+		
+		if_comp
+		{
+			"ypos"	"20"
+		}
 	}
 
 	"StopWatchImageCaptureTime"
@@ -38,6 +43,10 @@
 		"scaleImage"		"1"	
 		//"teambg_2"		"../hud/objectives_timepanel_red_bg"
 		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"		
+		if_comp
+		{
+			"ypos"	"27"
+		}
 	}
 
 	"ObjectiveStatusTimePanel"

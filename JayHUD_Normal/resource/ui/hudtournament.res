@@ -15,7 +15,7 @@
 		"team1_player_base_y"				"0"
 		"team1_player_delta_x"				"-47"
 		"team1_player_delta_y"				"0"
-		"team2_player_base_offset_x"		"25"
+		"team2_player_base_offset_x"		"30"
 		"team2_player_base_y"				"0"
 		"team2_player_delta_x"				"47"
 		"team2_player_delta_y"				"0"
@@ -47,7 +47,7 @@
 
 			"team1_player_base_y"			"75"
 			"team2_player_base_y"			"66"
-			"team2_player_base_offset_x"	"5"
+			"team2_player_base_offset_x"	"15"
 		}
 		
 		if_readymode
@@ -60,7 +60,7 @@
 			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
 			"team2_player_delta_x"			"52"
-			"team2_player_base_offset_x"	"5"
+			"team2_player_base_offset_x"	"15"
 		}
 
 		"ModeImage"

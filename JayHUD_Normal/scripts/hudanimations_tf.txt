@@ -791,23 +791,23 @@ event SpyWarningFlashEnd
 
 event HudReadyPulse
 {
-	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	TournamentInstructionsLabel 	FgColor		"RedSolid"		Linear 0.3 0.4
+	//Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
+	//Animate	TournamentInstructionsLabel 	FgColor		"RedSolid"		Linear 0.3 0.4
 
-	RunEvent HudReadyPulseLoop	0.5
+	//RunEvent HudReadyPulseLoop	0.5
 }
 
 event HudReadyPulseLoop
 {
-	RunEvent HudReadyPulse			0.0
+	//RunEvent HudReadyPulse			0.0
 }
 
 event HudReadyPulseEnd
 {
-	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
+	//Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
 	
-	StopEvent HudReadyPulse			0.0
-	StopEvent HudReadyPulseLoop		0.0
+	//StopEvent HudReadyPulse			0.0
+	//StopEvent HudReadyPulseLoop		0.0
 }
 
 // Respec in Win

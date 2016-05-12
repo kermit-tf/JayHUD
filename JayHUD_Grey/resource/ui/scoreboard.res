@@ -10,20 +10,129 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
-		"medal_width"		"0"
-		"avatar_width"		"57"
+		"medal_width"		"10"
 		"spacer"			"5"
-		"name_width"		"80"
-		"name_width_minmode"	"60"
-		"status_width"		"15"
-		"nemesis_width"		"15"
-		"class_width"		"15"
-		"score_width"		"25"
-		"ping_width"		"23"
-		"medal_width"		"15"
-		"killstreak_width"  "10"
-        "killstreak_image_width" "10"
+		"avatar_width"		"57"	[$WIN32]
+		"name_width"		"85"	[$WIN32]
+		"name_width_minmode" "65"	[$WIN32]		
+		"status_width"		"15"	[$WIN32]
+		"nemesis_width"		"15"	[$WIN32]
+		"class_width"		"15"	[$WIN32]
+		"score_width"		"20"
+		"ping_width"		"18"	[$WIN32]
+		"stats_width"		"15"
+		"killstreak_width"	"6"
+		"killstreak_image_width" "10"
 		"stats_width"       "30"
+	}
+	"PlayerNameBG"
+	{
+		"visible"			"0"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	
+	"ShadedBar"
+	{
+		"visible"			"0"
+		
+		if_mvm
+		{
+			"visible"		"1"
+		}
+	}
+	"ServerLabelNew"
+	{
+		"visible"		"0"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	
+	BlueScoreBG
+	{
+		"visible"			"0"
+		
+	}
+	RedScoreBG
+	{
+		"visible"			"0"
+	}
+	MainBG
+	{
+		"visible"			"0"
+		
+		
+		if_mvm 
+		{
+			"visible"	"0"
+		}
+	}
+		"RedLeaderAvatarBG"
+	{
+		"visible"	"0"
+	}
+	"BlueLeaderAvatarBG"
+	{
+		"visible"	"0"
+	}
+	"RedTeamScoreDropshadow"
+	{
+		"visible"		"0"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}	
+	"BlueTeamScoreDropshadow"
+	{
+		"visible"		"0"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}	
+	"TimerBG"
+	{
+		"visible"			"0"
+	}
+	"ServerTimeLeftLabel"
+	{
+		"visible"			"0"
+	}
+	"ServerTimeLeftValue"
+	{
+		"visible"			"0"
+	}
+
+	"BlueTeamImage"
+	{
+		"visible"			"0"
+		"enabled"			"0"
+		"xpos"				"9999"	
+	}
+	"RedTeamImage"
+	{
+		"visible"			"0"
+		"enabled"			"0"
+		"xpos"				"9999"	
+	}
+	
+	"ServerTimeLeftInsetBG"
+	{
+		"visible"			"0"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"MainBG"
 	{
@@ -352,6 +461,7 @@
 		"xpos_minmode"		"r263"
 		"ypos"			"108"
 		"ypos_minmode"		"r120"
+		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"19"
 		"tall_minmode"		"20"
@@ -718,24 +828,22 @@
 		{
 		"ControlName" 		"CExLabel"
 		"fieldName" 		"MapName"
-		"font" 				"Nill36"
-		"font_minmode" 				"Nill30"
+		"font" 				"Nill30"
 		"labelText" 		"%mapname%"
 		"textAlignment_minmode" 	"west"
 		"textAlignment" 	"center"
-		"xpos" 				"255"
+		"xpos" 				"305"
 		"xpos_minmode"		"r266"
-		"ypos" 				"345"
-		"ypos_minmode" 		"35"
+		"ypos" 				"375"
+		"ypos_minmode" 		"40"
 		"zpos" 				"3"
-		"wide" 				"350"
-		"wide_minmode" 				"250"
-		"tall" 				"38"
+		"wide" 				"250"
+		"tall" 				"30"
 		"autoResize" 		"0"
 		"pinCorner" 		"0"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"fgcolor" 			"255 255 255 255"
+		"fgcolor" 			"HUDWhite"
 		} 	
 	"HorizontalLine"
 	{
@@ -1047,10 +1155,10 @@
 				"visible"		"1"
 			}
 		}
-		"KillsShadowt"
+		"KillsShadow"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"KillsShadowt"
+			"fieldName"		"KillsShadow"
 			"font"			"Nill45"
 			"fgcolor"		"0 0 0 255"
 			"labelText"		"%kills%"
@@ -1131,10 +1239,10 @@
 				"visible"		"1"
 			}
 		}
-		"DeathsShadowt"
+		"DeathsShadow"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"DeathsShadowt"
+			"fieldName"		"DeathsShadow"
 			"font"			"Nill45"
 			"fgcolor"		"0 0 0 255"
 			"labelText"		"%deaths%"
@@ -1160,30 +1268,6 @@
 			}
 		}
 		
-			"GameType"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"gametype"
-			"font"		"Nill10"
-			"labelText"		"%gametype%"
-			"textAlignment"	"center"
-			"xpos"		"c6"
-			"ypos"		"r150"
-			"zpos"		"3"
-			"wide"		"89"
-			"wide_minmode"	"0"
-			"tall"		"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"fgcolor"		"255 255 255 255"
-
-			if_mvm
-			{
-				
-			}
-		}
 		
 				"AssistsLabel"
 		{
@@ -1996,7 +2080,151 @@
 			}
 		}
 
+	"damage"
+		{
+			"visible"			"0"
 
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"assists"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"support"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"bonus"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"Teleports"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"Headshots"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"backstabs"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+
+		"domination"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"revenge"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"kills"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"deaths"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"captures"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"defenses"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"healing"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"invuln"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"destruction"
+		{
+			"visible"			"0"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
 
 	"ButtonLegendBG"			[$X360]
 	{

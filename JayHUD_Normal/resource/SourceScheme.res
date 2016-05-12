@@ -153,7 +153,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Liber"
+				"name"		"Nill"
 				"tall"		"26"
 				"weight"	"500"
 				"additive"	"0"
@@ -172,7 +172,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Liber"
+				"name"		"Nill"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -185,7 +185,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Liber"
+				"name"		"Nill"
 				"tall"		"14"
 				"weight"	"500"
 			}
@@ -195,7 +195,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Liber"
+				"name"		"Nill"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -203,7 +203,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Liber"
+				"name"		"Nill"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -211,7 +211,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Liber"
+				"name"		"Nill"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -220,7 +220,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Liber"
+				"name"		"Nill"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -229,7 +229,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Liber"
+				"name"		"Nill"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -282,7 +282,7 @@ Scheme
 	
 	CustomFontFiles
 	{
-		"9"
+		"13"
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
@@ -295,10 +295,10 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"10" 
+		"14" 
 		{
-			"font" "resource/Font/Liberation Serif.ttf"
-			"name" "Liber"
+			"font" "resource/Font/Nilland-Black.ttf"
+			"name" "Nill"
 		}
 		
 	}
